@@ -29,3 +29,20 @@ git remote add origin YOUR_REPO_URL
 git branch -M main
 git push -u origin main
 ```
+- In the Azure portal, type "Static Web Apps" in the search bar and click the corresponding result.
+![Search for Static Web Apps](./azure-search-for-static-webapps.png)
+- Click Create static web app.
+![Click Create static web app](./azure-create-static-webapp.png)
+- Choose the subscription you created earlier.
+- For the name, type _default-react-app_. Azure will suggest a new name for the corresponding resource group.
+- Make sure the plan type is _free_.
+![Azure Static Webapp Options](./azure-static-webapp-options1.png)
+- Set the details that correspond to your git repo. The branch will be _main_.
+- Click _Review + create_.
+![Azure Static Webapp Options](./azure-static-webapp-options2.png)
+- Click _Create_.
+![Azure Static Webapp Options](./azure-static-webapp-options3.png)
+- _Click Go to resource_.
+![Azure webapp created](./azure-webapp-created.png)
+- In the webapp overview page, click the _Github Action runs_.
+![Azure overview - Github action runs](./azure-overview-github-action-runs.png)

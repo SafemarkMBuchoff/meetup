@@ -31,20 +31,26 @@ git push -u origin main
 ```
 - In the Azure portal, type "Static Web Apps" in the search bar and click the corresponding result.
 <img src="./azure-search-for-static-webapps.png" width=400>
+
 - Click Create static web app.
 <img src="./azure-create-static-webapp.png" width=400>
+
 - Choose the subscription you created earlier.
 - For the name, type _default-react-app_. Azure will suggest a new name for the corresponding resource group.
+
 - Make sure the plan type is _free_.
 <img src="./azure-static-webapp-options1.png" width=400>
+
 - Set the details that correspond to your git repo. The branch will be _main_.
 - Click _Review + create_.
 <img src="./azure-static-webapp-options2.png" width=400>
 
 - Click _Create_.
 <img src="./azure-static-webapp-options3.png" width=400>
+
 - _Click Go to resource_.
 <img src="./azure-webapp-created.png" width=400>
+
 - Note that Azure has added an action to your github repo
 ```
 git pull
@@ -114,12 +120,16 @@ index 0000000..65d2c4e
 
 - In the webapp overview page, click the _Github Action runs_.
 <img src="./azure-overview-github-action-runs.png" width=400>
+
 - After a minute or so, the action will succeed and you will see a green checkmark.
 <img src="./github-action-succeeded.PNG" width=400>
+
 - Navigate back to the webapp in Azure and click the _URL_
 <img src="./azure-overview-url.png" width=400>
+
 - You will see your default React App served on Azure. You can try this link out on your phone, give it to friends, etc..
 <img src="./react-app-on-azure.png" width=400>
+
 - Modify something small on your GitHub repo. In my example, I exported https://www.iconbolt.com/iconsets/emoji/emoji-emoticon-silly as a png (Node seems pretty picky about svgs) and referenced it in app.js. then rerun `npx start` to see your change.
 <img src="./modified-react-app.PNG" width=400>
 - Push the changes to GitHub

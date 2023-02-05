@@ -23,6 +23,7 @@ npm start
 
 - Add your react app to your new repo by pasting these commands into the command line:
 <img src="./add-react-app-to-repo.png" width=400>
+
 ```
 git remote add origin YOUR_REPO_URL
 git branch -M main

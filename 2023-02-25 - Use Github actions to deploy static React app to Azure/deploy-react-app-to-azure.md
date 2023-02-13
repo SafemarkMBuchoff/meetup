@@ -1,6 +1,6 @@
 ### The instructions below are for Windows, but the steps for Mac or Linux are similar
 - Create a new Azure account
-- Create a new subscription within that Azure account (TODO: flush these steps out)
+- Create a new subscription within that Azure account. You will probably need a credit card to do this, but the empty subscription, as well as the steps below won't cost anything.
 -  On your local computer, install NodeJS
 ```
 winget install -e --id OpenJS.NodeJS

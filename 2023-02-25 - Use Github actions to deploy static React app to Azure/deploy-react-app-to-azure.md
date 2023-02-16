@@ -1,27 +1,30 @@
 ### The instructions below are for Windows, but the steps for Mac or Linux are similar
 - Create a new Azure account
-- Create a new subscription within that Azure account. You will probably need a credit card to do this, but the empty subscription, as well as the steps below won't cost anything.
+- Create a new subscription within that Azure account. You will probably need a credit card, but the steps below won't create any charges on it.
 -  On your local computer, install NodeJS
 ```
 winget install -e --id OpenJS.NodeJS
 ```
-- Create a barebones react app
+- Create a barebones React app.
 ```
 npx create-react-app default-react-app
 ```
-- Test it out. After a few seconds, a browser tab should open and you should see a barebones react app.
+- Test it out. After a few seconds, a browser tab should open and you should see a barebones React app.
 ```
 cd default-react-app
 npm start
 ```
 <img src="./barebones-react-app.png" width=400>
 
+- Press CTRL+C to stop your React app.
+<img src="./ctrl-c-react-app.png" width=400>
+
 - Create a repository on github
 <img src="./github-new-repo-button.png" width=400>
 <img src="./github-new-repo-name.png" width=400>
 <img src="./github-new-repo-confirm.png" width=400>
 
-- Add your react app to your new repo by pasting these commands into the command line:
+- Add your React app to your new repo by pasting these commands into the command line:
 <img src="./add-react-app-to-repo.png" width=400>
 
 ```
@@ -130,7 +133,7 @@ index 0000000..65d2c4e
 - You will see your default React App served on Azure. You can try this link out on your phone, give it to friends, etc..
 <img src="./react-app-on-azure.png" width=400>
 
-- Modify something small on your GitHub repo. In my example, I exported https://www.iconbolt.com/iconsets/emoji/emoji-emoticon-silly as a png (Node seems pretty picky about svgs) and referenced it in app.js. then rerun `npx start` to see your change.
+- Modify something small on your GitHub repo. In my example, I exported https://www.iconbolt.com/iconsets/emoji/emoji-emoticon-silly as a png (Node seems pretty picky about svgs) and referenced it in app.js. then rerun `npm start` to see your change.
 <img src="./modified-react-app.PNG" width=400>
 - Push the changes to GitHub
 ```

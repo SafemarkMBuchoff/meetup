@@ -135,7 +135,8 @@ index 0000000..65d2c4e
 
 - Modify something small on your GitHub repo. In my example, I exported https://www.iconbolt.com/iconsets/emoji/emoji-emoticon-silly as a png (Node seems pretty picky about svgs) and referenced it in app.js. then rerun `npm start` to see your change.
 <img src="./modified-react-app.PNG" width=400>
-- Push the changes to GitHub
+
+- Push the changes to GitHub.
 ```
 git add *
 git commit * -m "Made a small change to my React app"

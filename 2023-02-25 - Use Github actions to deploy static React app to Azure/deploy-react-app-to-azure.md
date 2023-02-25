@@ -5,6 +5,7 @@
 ```
 winget install -e --id OpenJS.NodeJS
 ```
+- Restart your terminal.
 - Create a barebones React app.
 ```
 npx create-react-app default-react-app
